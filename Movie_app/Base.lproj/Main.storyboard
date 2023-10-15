@@ -55,12 +55,12 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Price" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e3b-0H-XOT">
-                                                    <rect key="frame" x="100" y="128" width="273" height="21"/>
+                                                    <rect key="frame" x="100" y="113" width="273" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="igj-pC-548">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="igj-pC-548">
                                                     <rect key="frame" x="100" y="57.000000000000007" width="273" height="20.333333333333336"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -73,7 +73,7 @@
                                                 <constraint firstItem="zFl-KX-nKh" firstAttribute="leading" secondItem="iWp-GW-4bY" secondAttribute="leading" constant="5" id="3CJ-51-1Yt"/>
                                                 <constraint firstAttribute="trailing" secondItem="igj-pC-548" secondAttribute="trailing" constant="20" id="9P1-m4-ldv"/>
                                                 <constraint firstAttribute="trailing" secondItem="e3b-0H-XOT" secondAttribute="trailing" constant="20" id="G37-aZ-Wca"/>
-                                                <constraint firstAttribute="bottom" secondItem="e3b-0H-XOT" secondAttribute="bottom" constant="5" id="KZp-BQ-R25"/>
+                                                <constraint firstAttribute="bottom" secondItem="e3b-0H-XOT" secondAttribute="bottom" constant="20" id="KZp-BQ-R25"/>
                                                 <constraint firstItem="cZd-Wq-zFl" firstAttribute="leading" secondItem="zFl-KX-nKh" secondAttribute="trailing" constant="5" id="KjM-UZ-hwg"/>
                                                 <constraint firstItem="e3b-0H-XOT" firstAttribute="leading" secondItem="zFl-KX-nKh" secondAttribute="trailing" constant="5" id="Qbh-e5-A3k"/>
                                                 <constraint firstItem="igj-pC-548" firstAttribute="leading" secondItem="zFl-KX-nKh" secondAttribute="trailing" constant="5" id="SAE-bP-qp1"/>
@@ -88,6 +88,7 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="dateLabel" destination="cZd-Wq-zFl" id="SD7-9v-QWi"/>
+                                            <outlet property="descriptionLabel" destination="igj-pC-548" id="lhF-Cw-0IY"/>
                                             <outlet property="movieImageView" destination="zFl-KX-nKh" id="wNX-vd-acI"/>
                                             <outlet property="priceLabel" destination="e3b-0H-XOT" id="Ge0-gW-uie"/>
                                             <outlet property="titleLabel" destination="Vac-pB-d19" id="dEF-a8-mU9"/>
