@@ -17,6 +17,7 @@
 		123697C82ADBE36600573A1A /* Movie_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123697C72ADBE36600573A1A /* Movie_appUITests.swift */; };
 		123697CA2ADBE36600573A1A /* Movie_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123697C92ADBE36600573A1A /* Movie_appUITestsLaunchTests.swift */; };
 		123697D72ADBE85800573A1A /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123697D62ADBE85800573A1A /* MovieCell.swift */; };
+		123697D92ADC33A000573A1A /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123697D82ADC339F00573A1A /* MovieModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		123697C72ADBE36600573A1A /* Movie_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie_appUITests.swift; sourceTree = "<group>"; };
 		123697C92ADBE36600573A1A /* Movie_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		123697D62ADBE85800573A1A /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		123697D82ADC339F00573A1A /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				123697B12ADBE36500573A1A /* LaunchScreen.storyboard */,
 				123697B42ADBE36500573A1A /* Info.plist */,
 				123697D62ADBE85800573A1A /* MovieCell.swift */,
+				123697D82ADC339F00573A1A /* MovieModel.swift */,
 			);
 			path = Movie_app;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			files = (
 				123697AB2ADBE36400573A1A /* ViewController.swift in Sources */,
 				123697A72ADBE36400573A1A /* AppDelegate.swift in Sources */,
+				123697D92ADC33A000573A1A /* MovieModel.swift in Sources */,
 				123697D72ADBE85800573A1A /* MovieCell.swift in Sources */,
 				123697A92ADBE36400573A1A /* SceneDelegate.swift in Sources */,
 			);
